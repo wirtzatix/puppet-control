@@ -8,6 +8,8 @@ mod 'puppetlabs/concat',      '4.2.1'
 mod 'puppetlabs/java',        '2.4.0'
 mod 'puppet/selinux',         '1.5.2'
 mod 'puppetlabs/docker',      '1.1.0'
+mod 'puppetlabs-apt',         '4.5.1'
+mod 'puppetlabs-translate',   '1.1.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
