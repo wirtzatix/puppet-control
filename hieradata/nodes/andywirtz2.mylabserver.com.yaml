@@ -1,0 +1,11 @@
+---
+profile::apache::apache_vhost_servers: {
+  'andywirtz2.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/andywirtz2'
+  },
+  'andywirtz2b.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/andywirtz2b'
+  },
+}
