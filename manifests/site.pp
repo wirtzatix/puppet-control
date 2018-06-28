@@ -31,9 +31,9 @@ node 'andywirtz5.mylabserver' {
   class { 'java': }
 }
 
-node /^andywirtz5/ {
-  notify { "This is a node definition using regex!!!!": }
-}
+#node /^andywirtz5/ {
+#  notify { "This is a node definition using regex!!!!": }
+#}
 
 node 'andywirtz4.mylabserver.com' {
   include pe_repo::platform::el_6_x86_64
