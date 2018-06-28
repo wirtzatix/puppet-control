@@ -25,8 +25,20 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
+
+node 'andywirtz5.mylabserver' {
+  notify { 'This matches the node name!!!!': }
+  class { 'java': }
+}
+
+node /^andywirtz5/ {
+  notify { "This is a node definition using regex!!!!": }
+}
+
+node 'andywirtz4.mylabserver.com' {
+  include pe_repo::platform::el_6_x86_64
+  include pe_reop::platform::ubuntu_1204_amd64
+}
+
 node default {
-  # This is where you can declare classes for all nodes.
-  # Example:
-  #   class { 'my_class': }
 }
