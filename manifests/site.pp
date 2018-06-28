@@ -27,7 +27,7 @@ File { backup => false }
 
 node 'andywirtz5.mylabserver.com' {
   notify { 'test-message-for-andywirtz5':
-    messege => 'this is andywirtz5 using a node def',
+    message => 'this is andywirtz5 using a node def',
   }
 }
 
