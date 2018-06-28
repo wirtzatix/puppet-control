@@ -25,12 +25,6 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
-node 'andywirtz5.mylabserver.com' {
-  notify { 'test-message-for-andywirtz5':
-    message => 'this is andywirtz5 using a node def',
-  }
-}
-
 
 node 'andywirtz4.mylabserver.com' {
   include pe_repo::platform::el_6_x86_64
