@@ -1,6 +1,6 @@
 ---
 classes:
- - profile::apache
+ - profile::nginx
 profile::apache::apache_vhost_servers: {
   'andywirtz2.mylabserver.com': {
     port: 80,
