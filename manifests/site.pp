@@ -26,8 +26,8 @@ File { backup => false }
 # specified in the console for that node.
 
 
-node 'andywirtz5.mylabserver' {
-  notify { 'This matches the node name!!!!': }
+node 'andywirtz5' {
+  notify { 'This matches andywirtz5!!!': }
   class { 'java': }
 }
 
